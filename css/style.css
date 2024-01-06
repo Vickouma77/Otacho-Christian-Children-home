@@ -446,3 +446,48 @@
 .footer .copyright a:hover {
     color: var(--primary);
 }
+
+/* Counter*/
+.contercontent {
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    background-color:rgb(235, 224, 224);
+}
+.counterbox {
+    width: 100%;
+    height: 250px;
+}
+.contercontent .one {
+    background-color: rgb(212, 18, 18);
+}
+.counterbox .information {
+    width: 50%;
+    height: 100%;
+    margin: 0 auto;
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+}
+.information .number p {
+    font-size: 50px;
+    color: rgb(212, 18, 18);
+    padding-right: 10px;
+}
+.information .text p{
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 20px;
+    font-weight: 400;
+}
+
+@media only screen and (max-width : 700px ) {
+
+    /* ******************************   Counter  *********************** */
+    .contercontent {
+        display: block;
+    }
+    .counterbox {
+        height: 150px;
+    }
+
+}
